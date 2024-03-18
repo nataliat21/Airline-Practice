@@ -8,6 +8,35 @@
     padding: 13px 14px;
   }
 
+  .header-nav-menu-mobile{
+    .prueba{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 13px 14px;
+    }
+
+    .header-nav-menu-mobile-links{
+      display: flex;
+      flex-direction: column;
+      margin: 0 10px;
+
+      .header-nav-menu-mobile-links__item{
+        border-bottom: 1px solid #B2B2C1;
+        padding: 20px 5px;
+
+        &:last-child{
+          border-bottom: none;
+        }
+
+        .header-nav-menu-mobile-links__link{
+          text-decoration: none;
+          color: $primary-text-color;
+        }
+      }
+    }
+  }
+
   .header-nav-desktop{
     display: none;
   }
@@ -15,7 +44,8 @@
 
 @media (min-width: 992px){
   .header{
-    .header-nav{
+    .header-nav,
+    .header-nav-menu-mobile{
       display: none;
     }
 
