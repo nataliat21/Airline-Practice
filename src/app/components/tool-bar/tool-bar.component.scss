@@ -9,6 +9,7 @@
   }
 
   .header-nav-menu-mobile{
+
     .prueba{
       display: flex;
       align-items: center;
@@ -33,6 +34,33 @@
           text-decoration: none;
           color: $primary-text-color;
         }
+      }
+    }
+  }
+
+  .header-nav-menu-mobile-info{
+    .prueba2{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 13px 14px;
+    }
+
+    .header-nav-menu-mobile-info-links{
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+
+      .header-nav-menu-mobile-info-links__title{
+        padding: 20px 0 0 10px;
+        font-size: 18px;
+        margin: 0;
+      }
+
+      .header-nav-menu-mobile-info-links__link{
+        text-decoration: none;
+        color: $primary-text-color;
+        padding: 0 0 0 40px;
       }
     }
   }
